@@ -82,7 +82,7 @@ class File {
                 lineProgress = 0
 
                 // remove lines
-                for(const di)
+                for(const difference )
             }
 
         }
