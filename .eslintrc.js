@@ -1,16 +1,13 @@
 module.exports = {
-    'env':
-    {
+    'env': {
         'browser': true,
         'es6': true
     },
     'extends': ['eslint:recommended'],
-    'parserOptions':
-    {
+    'parserOptions': {
         'sourceType': 'module'
     },
-    'rules':
-    {
+    'rules': {
         'no-unused-vars': 1,
         'no-console': 0,
         'dot-notation': 1,
@@ -23,7 +20,7 @@ module.exports = {
         'radix': [1, 'as-needed'],
         'no-undef': 2,
         'array-bracket-spacing': [1, 'never'],
-        // 'brace-style': [1, 'allman'],
+        'brace-style': [1, 'allman'],
         'camelcase': [1, { properties: 'always' }],
         'comma-dangle': [1, 'never'],
         'comma-style': [1, 'last'],
